@@ -51,7 +51,7 @@ regressor.compile(optimizer='adam', loss='mean_squared_error')
 # Fitting the RNN to the Training set
 # 'X_train' Independent variables
 # 'y_train' Output Truths that we compare X_train to.
-regressor.fit(X_train, y_train, epochs=1, batch_size=32)
+regressor.fit(X_train, y_train, epochs=100, batch_size=32)
 
 dataset = pd.read_csv('wig20_d.csv')
 dataset_test = dataset.iloc[7233:7294]
