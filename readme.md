@@ -3,7 +3,7 @@
 ## Table of contents
 [Description](#description)
 
-[Technologies/Packages](#Technologies/Packages)
+[Packages](#Packages)
 
 [Installation](#Installation)
 
